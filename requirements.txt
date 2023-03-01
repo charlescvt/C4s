@@ -1,0 +1,9 @@
+requests
+bs4
+selenium
+webdriver-manager
+revChatGPT
+streamlit
+streamlit-extras
+streamlit-lottie
+fastapi
