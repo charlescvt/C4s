@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 import time
 
 # to access official ChatGPT API once it comes out
-#mport openai
+import openai
 
 # to load login data from revChatGPT package
 from revChatGPT.V1 import Chatbot

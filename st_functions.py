@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
+import os
+import json
 
 # to access the internet
 from selenium import webdriver
@@ -10,12 +12,11 @@ from selenium.webdriver.common.by import By
 import time
 
 # to access official ChatGPT API once it comes out
-#mport openai
+import openai
 
 # to load login data from revChatGPT package
 from revChatGPT.V1 import Chatbot
 import importlib.resources
-import json
 
 def user_input(st_ticker, st_quarter):
         """
@@ -74,7 +75,6 @@ def user_input(st_ticker, st_quarter):
         end = time.time()
         print ("Received user input in " + str(round(end-start,2)) + " seconds")
         return ticker, quarter, since_ts, until_ts
-
 
 def sa_api(ticker, quarter, since_ts, until_ts):
     """
@@ -138,6 +138,7 @@ def get_tr_text(link):
 
     return result
 
+
 def text_splitter(text):
 
     chunks = []
@@ -151,6 +152,7 @@ def text_splitter(text):
         text = ' '.join(text.split()[2500:])
 
     return chunks
+
 
 def ask_chatgpt(prompt=None):
     # loading config file
@@ -172,3 +174,14 @@ def ask_chatgpt(prompt=None):
 
 
     return response["message"]
+
+
+def dalle_image(prompt):
+
+    response = openai.Image.create(
+      prompt=prompt,
+      n=1,
+      size="256x256"
+    )
+    image_url = response['data'][0]['url']
+    return image_url

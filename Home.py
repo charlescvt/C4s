@@ -4,10 +4,13 @@ from streamlit_extras.switch_page_button import switch_page
 
 import requests
 import smtplib
-
 from email.message import EmailMessage
+import openai
+import os
 
 from st_html import formsubmit
+
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 st.set_page_config(page_title="Retained Earnings",
         page_icon=':bar_chart:',
@@ -33,7 +36,7 @@ with st.container():
 
 with st.container():
     st.write('---')
-    st.markdown("<h1 style='text-align: center; color: white;'>Our programs thus far</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: white;'>Our programs so far</h1>", unsafe_allow_html=True)
     st.write('---')
     st.write('&nbsp;')
 
@@ -78,6 +81,10 @@ with st.form("Contact Form"):
     message = st.text_input("Message")
 
     submitted = st.form_submit_button("Submit")
+
+
+st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:charleschav01@ucla.edu?subject=Call4Short&body=Please specify the issue you are facing with the app.'><strong>Charles Chaverot</strong></a></center><hr>", unsafe_allow_html=True)
+st.markdown("<style> footer {visibility: hidden;} </style>", unsafe_allow_html=True)
 
     # if submitted:
     #     # send me an email with the message
