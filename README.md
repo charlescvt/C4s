@@ -1,4 +1,1 @@
-# f_dev
-# f_dev
-# f_dev
-# f_dev
+# Updating regularly. Currently working on program features before making it pretty.
