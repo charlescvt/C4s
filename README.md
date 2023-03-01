@@ -1,4 +1,2 @@
-# f_dev
-# f_dev
-# f_dev
-# f_dev
+# Financial Analyst Toolbox
+## Updating regularly. Currently working on program features before making it pretty.
