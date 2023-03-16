@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Call 4 Short (or C4s, for short) aims to arm financial analysts with tools to quickly access company reports and interpret the data with the help of ChatGPT. The project aims to showcase the usage of various APIs, multiple-file programming, some data processing and efficient web framework implementations. 
+Call 4 Short (or C4s, for short) is a tool that financial analysts can use to quickly access company reports and interpret the data with the help of ChatGPT. The project aims to implement the usage of various APIs, multiple-file programming and stock data analysis, all wrapped in a Streamlit-based efficient web app. 
 <br> 
 <br>
 So far, C4s is built on the following components:
