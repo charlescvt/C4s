@@ -1,5 +1,5 @@
 ---
-# C4s || Automated company reports query with insightful AI-based interpretation
+# <p style="text-align: center;">C4s || Automated company reports query with insightful AI-based interpretation</p>
 ---
 
 ## Introduction
