@@ -8,8 +8,8 @@ Call 4 Short (or C4s, for short) is a tool that financial analysts can use to qu
 <br> 
 <br>
 So far, C4s is built on the following components:
-1. Seeking Alpha's REST Client API to query for earnings calls of the user's choosing (Company and Quarter)
-2. The ChatGPT API which feeds the retrieved data to the AI, allowing it to understand the current company status from pages of transcript.
+1. Seeking Alpha's REST Client API to query for earnings calls of the user's choosing (Company and Quarter).
+2. OpenAI API to feed the retrieved data to GPT 3.5, making it learn the current company status from pages of transcript.
 3. An augmented ChatGPT terminal where the user can interact with the AI to ask for insights on the company's operations.
 4. COMING SOON: Tome AI implementation for quick slides generation to visualize earnings-call transcript.
 
