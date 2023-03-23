@@ -1,5 +1,5 @@
 ---
-# C4s | Quick access to company reports with insightful AI-based interpretation
+# C4s | Company reports coupled with insightful AI-based interpretation
 ---
 
 ## Introduction
