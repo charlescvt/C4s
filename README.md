@@ -22,6 +22,7 @@ In order to run C4s, you will need some Python libraries installed on your compu
 Find your key at https://platform.openai.com/account/api-keys and follow the steps below to save it on your environment:
 - MacOS: https://youngstone89.medium.com/setting-up-environment-variables-in-mac-os-28e5941c771c
 - Windows: https://phoenixnap.com/kb/set-environment-variable-mac
+- To keep it short (house rules), you will run some form of `export OPENAI_API_KEY = <your_API_key>` in your terminal. 
 
-To keep it short (house rules), you will run some form of `export OPENAI_API_KEY = <your_API_key>` in your terminal. 
+3. From your terminal run `streamlit run Home.py` and the website's (hopefully) clear instructions will take it from there.
 
