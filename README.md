@@ -19,7 +19,7 @@ So far, C4s is built on the following components:
 In order to run C4s, you will need some Python libraries installed on your computer such as OpenAI's ChatGPT API, Streamlit and other minor ones. The process takes **less than a minute** and the requirements are **packaged into the "requirements.txt" file** in the repo so you can run a *pip install -r requirements.txt* and have everything you need!
 
 2. OpenAI API key <br>
-Find your key at platform.openai.com/account/api-keys and follow the steps below to save it on your environment as OPENAI_API_KEY:
+Find your key at https://platform.openai.com/account/api-keys and follow the steps below to save it on your environment as OPENAI_API_KEY:
 - MacOS: https://youngstone89.medium.com/setting-up-environment-variables-in-mac-os-28e5941c771c
 - Windows: https://phoenixnap.com/kb/set-environment-variable-mac
 
